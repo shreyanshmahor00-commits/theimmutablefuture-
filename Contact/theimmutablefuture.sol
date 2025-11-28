@@ -14,7 +14,7 @@ contract Project {
         uint256 timestamp;
     }
 
-    uint256 public ideaCount;
+    uint256 public  ideaCount;
     mapping(uint256 => Idea) public ideas;
 
     event IdeaCreated(uint256 indexed id, string title, address indexed creator, uint256 timestamp);
